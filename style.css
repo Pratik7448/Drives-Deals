@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f6f6f2;
+}
+.logo{
+    float: left;
+    position: relative;
+
+}
+
+ul{
+   list-style: none;
+   height: 11vh;
+   width: 209.8vh;
+   background-color: #c2edce;
+   text-align: center;
+   position: relative;
+   
+}
+
+#nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 20px;
+    float:left;
+}
+
+#nav li a:hover{
+    background-color: #6fb3b8;
+    height: 35px;
+    width: 80px;
+    color: white;
+
+}
+.bg{
+    position: relative;
+    
+}
+.b1{
+    position: absolute;
+    color:black;
+    font-size: 90px;
+    bottom: 40vh;
+    right: 80vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#new h1{
+    color: #388087;
+    font-size: 70px;
+}
+
+#used h1{
+    color: #388087;
+    font-size: 70px;
+}
+
+#service h1{
+    color: #217077;
+    font-size: 70px;
+}
+.b2{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    bottom: 27vh;
+    right: 140vh;
+    
+}
+
+
+.card{
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 105px 105px 105px 170px;
+    height: 300px;
+    width: 300px;
+    padding: 40px 40px 170px 40px ;
+    background-color: #badfe7;
+    font-size: 25px;   
+    
+}
+.card input{
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+    font-size: 15px;
+    background-color: #388087;
+    margin-top: 10px;
+    color: white;
+}
+
+.d1{
+    display:inline-block;
+    position: relative;
+     margin: 10px 10px 10px 60px;
+
+}
+.d2{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px 10px 40px;
+    padding: 80px 80px 80px 150px;
+    margin-left: -98px;
+}
+
+
+.p1{
+    display:inline-block;
+    height: 50%; 
+    width: 50%; 
+    position: absolute; 
+    margin: 100px 50px 20px 40px;
+    font-size: 25px;
+    margin-left: 85px;
+}
+
+.p2{
+    display:inline-block;
+    height: 50%; 
+    width: 50%; 
+    position: absolute; 
+    margin: 100px 50px 20px 25px;
+    font-size: 25px;
+ 
+}
+
+form{
+    border: 3px dashed black;
+    background-color: #c2edce ; 
+    margin: auto; 
+    padding: 20px;
+    height: 650px;
+    width: 60%;
+    
+}
+#contact input,textarea{
+    height: 50px;
+    width: 500px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 1px;
+}
+#contact label{
+    height: 50px;
+    width: 500px;
+    margin: 20px;
+    font-size: 30px;
+    padding: 1px;
+}
+#contact select{
+    height: 60px;
+    width: 505px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 1px;
+    -ms-transform: translateX(-60%);
+    transform: translateX(0%);
+
+}
+
+
+#contact h1{
+    color: blue;
+    text-align: center;
+    padding: 40px;
+}
+.btn{
+    border-radius: 20px;
+    height: 70px;
+    width: 160px;
+    font-size: 30px;
+    background-color: #388087;
+    color: white;
+    -ms-transform: translateX(-60%);
+    transform: translateX(50%);
+    
+}
